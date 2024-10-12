@@ -66,10 +66,14 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
 - ### Datalaoding:-
 
-  We use *'BSD100* dataset here .
+  We use *'BSD100'* dataset here .
   
   *'image_SRF_2'* as training set , *'image_SRF_3'* as validation set and *'image_SRF_4'* as testing set .
   
   Here, no preprocessing is required like that of bicubic interpolation.
+
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20010754.png)
+
+  This is the only transformation that we apply here.
 
   

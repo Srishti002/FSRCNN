@@ -1,9 +1,9 @@
 # FSRCNN
 ## Introduction :-
-Though SRCNN is already faster than most previous learning-based methods, the processing speed on large images is still unsatisfactory. For example, to upsample an 240×240 image by a factor of 3, the speed of the original SRCNN is about 1.32 fps, which is far from real time (24 fps). 
+Though SRCNN is already faster than most previous learning-based methods, the processing speed on large images is still unsatisfactory. For example, to upsample an 240×240 image by a factor of 3, the speed of the original SRCCNN is about 1.32 fps, which is far from real time (24 fps). 
 
 There are two inherent limitations of SRCNN that restricts its runnnign speed :-
-1. Pre-processing step, the original LR image needs to be upsampled to the desired size using bicubic interpolation to form the input. Thus the computation complexity of SRCNN grows quadratically with the spatial size of the HR image. For the upscaling factor n, the computational cost of convolution with the interpolated LR image will be n^2 times of that for the original LR one.
+1. Pre-processing step, the original LR image needs to be upsampled to the desired size using bicubic interpolation to form the input. Thus the computation complexity of SRCNN grows quadratically with the spatial size of the HR image. For the upscaling factor n, the computational cost of convolution with the interpolated LR image will be n^2 times of that for the original LR one.
    
 2. The second restriction lies on the costly non-linear mapping step.
 
@@ -108,7 +108,7 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
   We're only using the first 16 layers of VGG-16. This includes several convolutional and max pooling layers, up to 'relu3_3'.
 
-  ![](
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20020227.png)
 
   
   

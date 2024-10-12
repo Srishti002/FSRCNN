@@ -116,6 +116,8 @@ The first four parts are convolution layers, while the last one is a deconvoluti
   - Optimizer = Adam
   - Learning rate = 0.001
   - Loss = MSE + Perceptual
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20020936.png)
+  ![](
 
   
   

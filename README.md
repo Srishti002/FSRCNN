@@ -89,6 +89,20 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
 - ## Loss Calculation :-
 
-  Here, we are using both MSE and Perceptual loss.
+  Here, we are using both *MSE* and *Perceptual loss*.
+
+  Perceptual loss is a type of loss function that aims to capture the perceptual differences between images , rather than just pixel wise differences. Perceptual differences refer to how humans visually perceive 
+  distinctions between images rather than just mathematical difference in pixel values. Two images can mathematically different but look very similar to humans or vice versa.
+
+  So, perceptual loss function aims to capture these differences by using features from pre trained network. Here we are using 'VGG-16 pre trained network'.
+  
+  > - The target HR image and generated HR image are passed through pre trained network.
+  > - The network processes both images , producing feature maps at various layers.
+  > - For each selected layer , the feature maps of generated image and target image are compared. The compariosn is usually done by MSE between feature maps.
+  > - The losses from multiple layers are often combined. Earlier layer captures low level features and deeper layers capture high level semantic information.
+  > - The perceptual loss is often combined with pixel wise MSE loss for final optimization objective.
+  
+  ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20030818.png)
+
   
   

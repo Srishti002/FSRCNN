@@ -76,4 +76,6 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
   This is the only transformation that we apply here.
 
+- ### FSRCNN model :-
+  
   

@@ -80,5 +80,15 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20011204.png)
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20011228.png)
+
+  - Our first layer is *feature extraction* layer which consists of *56 filters* of size *5 * 5 * 3*
+  - Our second layer is *Shrinking layer* which consists of *12 filters* of size *1 * 1 * 56*.
+  - Our third layer is *mapping layer* is a set of *4 layers*, each consisting of *12 filters* of size *3 * 3 * 12*.
+  - our fourth layer is *expansion layer* which consists of *56 filters* of size *1 * 1 * 12*.
+  - Our last layer is *Deconvolutional layer* which consists of 3 filters as we want RGB image , size of *9 * 9 * 56* and upsacling factor here is *2* for *'image_SRF_2'(training dataset)*, upscaling factor for *'image_SRF_4'(test set)* is *3*.
+
+- ## Loss Calculation :-
+
+  Here, we are using both MSE and Perceptual loss.
   
   

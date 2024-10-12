@@ -104,5 +104,11 @@ The first four parts are convolution layers, while the last one is a deconvoluti
   
   ![](https://github.com/Srishti002/SRCNN/blob/main/Screenshot%202024-10-12%20030818.png)
 
+  When using VGG-16 for perceptual loss, we typically only use the convolutional layers, discarding the fully connected layers. This allows us to input images of various sizes.
+
+  We're only using the first 16 layers of VGG-16. This includes several convolutional and max pooling layers, up to 'relu3_3'.
+
+  ![](
+
   
   

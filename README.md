@@ -110,5 +110,12 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20020227.png)
 
+- ## Training and Testing :-
+  - epochs = 20
+  - Batch size = 1
+  - Optimizer = Adam
+  - Learning rate = 0.001
+  - Loss = MSE + Perceptual
+
   
   

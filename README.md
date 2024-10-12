@@ -14,3 +14,5 @@ So, to solve above limitations of SRCNN , FSRCNN comes into existance:-
  2. For the second problem, a shrinking and an expanding layer is placed at the beginning and at the end of the mapping layer separately to restrict mapping in a low-dimensional feature space.
 
 ## FSRCNN Architecture :-
+
+![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-12%20233823.png)

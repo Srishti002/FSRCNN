@@ -66,6 +66,8 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
 - ### Datalaoding:-
 
+  Dataset link :- https://figshare.com/articles/dataset/BSD100_Set5_Set14_Urban100/21586188
+
   We use *'BSD100'* dataset here .
   
   *'image_SRF_2'* as training set , *'image_SRF_3'* as validation set and *'image_SRF_4'* as testing set .

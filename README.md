@@ -124,6 +124,7 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
 - Training Set result :
 
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/label_0.png)
   ![](
 
   

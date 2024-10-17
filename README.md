@@ -1,4 +1,4 @@
-# FSRCNN (fast Super Resolution Convolutional Neural Network)
+# FSRCNN (Fast Super Resolution Convolutional Neural Network)
 ## Introduction :-
 Though SRCNN is already faster than most previous learning-based methods, the processing speed on large images is still unsatisfactory. For example, to upsample an 240×240 image by a factor of 3, the speed of the original SRCCNN is about 1.32 fps, which is far from real time (24 fps). 
 
@@ -141,14 +141,14 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
 - Test Set Result :
 
-  ![]()
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/label_0.png)
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20010813.png)
 
-  ![]()
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/label_2.png)
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20010910.png)
 
-  ![]()
-  ![]()
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/label_5.png)
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20011021.png)
 
   
 

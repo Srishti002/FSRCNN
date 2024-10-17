@@ -145,6 +145,9 @@ The first four parts are convolution layers, while the last one is a deconvoluti
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20010813.png)
 
   ![]()
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20010910.png)
+
+  ![]()
   ![]()
 
   

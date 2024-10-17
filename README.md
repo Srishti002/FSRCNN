@@ -138,6 +138,15 @@ The first four parts are convolution layers, while the last one is a deconvoluti
 
   ![](https://github.com/Srishti002/FSRCNN/blob/main/label_5.png)
   ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-13%20230817.png)
+
+- Test Set Result :
+
+  ![]()
+  ![](https://github.com/Srishti002/FSRCNN/blob/main/Screenshot%202024-10-14%20010813.png)
+
+  ![]()
+  ![]()
+
   
 
   

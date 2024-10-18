@@ -9,7 +9,7 @@ There are two inherent limitations of SRCNN that restricts its runnnign speed :-
 
 So, to solve above limitations of SRCNN , FSRCNN comes into existance:-
 
- 1. To solve the first problem, a deconvolution layer is used to replace the bicubic interpolation. To further ease the computational burden, the deconvolution layer is placed at the end of the network, then the computational complexity is only proportional to the spatial size of the original LR image.
+ 1. To solve the first problem, a deconvolution layer is used to replace the bicubic interpolation. To further ease the computational burden, the deconvolution layer is placed at the end of the network, then the computational complexity is only proportional to the spatial size of the original LR image.
     
  2. For the second problem, a shrinking and an expanding layer is placed at the beginning and at the end of the mapping layer separately to restrict mapping in a low-dimensional feature space.
 
